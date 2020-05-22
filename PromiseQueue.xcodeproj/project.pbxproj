@@ -13,6 +13,8 @@
 		B6814FC124787C2E00424C61 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6814FC024787C2D00424C61 /* Assets.xcassets */; };
 		B6814FC424787C2E00424C61 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B6814FC324787C2E00424C61 /* Preview Assets.xcassets */; };
 		B6814FC724787C2E00424C61 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B6814FC524787C2E00424C61 /* LaunchScreen.storyboard */; };
+		B6814FCF24787C8C00424C61 /* ContentViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6814FCE24787C8C00424C61 /* ContentViewModel.swift */; };
+		B6814FD124787FC400424C61 /* PromiseLand.swift in Sources */ = {isa = PBXBuildFile; fileRef = B6814FD024787FC400424C61 /* PromiseLand.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		B6814FC324787C2E00424C61 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B6814FC624787C2E00424C61 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B6814FC824787C2E00424C61 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B6814FCE24787C8C00424C61 /* ContentViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewModel.swift; sourceTree = "<group>"; };
+		B6814FD024787FC400424C61 /* PromiseLand.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromiseLand.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,10 +63,12 @@
 				B6814FBA24787C2C00424C61 /* AppDelegate.swift */,
 				B6814FBC24787C2C00424C61 /* SceneDelegate.swift */,
 				B6814FBE24787C2C00424C61 /* ContentView.swift */,
+				B6814FCE24787C8C00424C61 /* ContentViewModel.swift */,
 				B6814FC024787C2D00424C61 /* Assets.xcassets */,
 				B6814FC524787C2E00424C61 /* LaunchScreen.storyboard */,
 				B6814FC824787C2E00424C61 /* Info.plist */,
 				B6814FC224787C2E00424C61 /* Preview Content */,
+				B6814FD024787FC400424C61 /* PromiseLand.swift */,
 			);
 			path = PromiseQueue;
 			sourceTree = "<group>";
@@ -146,6 +152,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B6814FD124787FC400424C61 /* PromiseLand.swift in Sources */,
+				B6814FCF24787C8C00424C61 /* ContentViewModel.swift in Sources */,
 				B6814FBB24787C2C00424C61 /* AppDelegate.swift in Sources */,
 				B6814FBD24787C2C00424C61 /* SceneDelegate.swift in Sources */,
 				B6814FBF24787C2C00424C61 /* ContentView.swift in Sources */,
